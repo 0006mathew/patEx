@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PatientExpFinal">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="com.mysql.jdbc_5.1.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/com.mysql.jdbc_5.1.5/com.mysql.jdbc_5.1.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="PatientExpFinal"/>
+        <property name="java-output-path" value="/PatientExpFinal/build/classes"/>
+    </wb-module>
+</project-modules>
